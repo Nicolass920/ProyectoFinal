@@ -8,6 +8,7 @@ namespace ProyectoFinal
 {
     internal class Producto
     {
+
         private int _id;
         private string _drescripcion;
         private double _costo;
@@ -27,6 +28,7 @@ namespace ProyectoFinal
         }
         public Producto(int Id, string Drescripcion, int Costo, int PrecioVenta, int Stock, int IdUsuario)
         {
+
             this._id = Id;
             this._drescripcion = Drescripcion;
             this._costo = Costo;
@@ -63,6 +65,7 @@ namespace ProyectoFinal
         {
             get { return _idUsuario; }
             set { this._idUsuario = value; }
+
         }
     }
 }

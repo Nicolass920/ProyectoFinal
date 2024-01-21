@@ -46,6 +46,7 @@ namespace ProyectoFinal
         {
             get { return _idVenta; }
             set { this._idVenta = value; }
+
         }
     }
 }

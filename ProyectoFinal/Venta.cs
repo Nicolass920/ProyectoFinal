@@ -12,18 +12,22 @@ namespace ProyectoFinal
         private string _comentarios;
         private int _idUsuarios;
 
+
         public Venta()
 
         {
             _id = 0;
             _comentarios = string.Empty;
             _idUsuarios = 0;
+
+
         }
         public Venta(int Id, string Comentarios, int IdUsuarios)
         {
             this._id = Id;
             this._comentarios = Comentarios;
             this._idUsuarios = IdUsuarios;
+
         }
         public int Id
         {
@@ -42,6 +46,7 @@ namespace ProyectoFinal
             get { return _idUsuarios; }
 
             set { this._idUsuarios = value; }
+
         }
     }
 }
